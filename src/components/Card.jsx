@@ -7,9 +7,8 @@ const Card = () => {
   return (
     <div className="container">
       <div className="card__wrapper">
-        <div className="card__line"></div>
-        <p>Team Builder</p>
-        <p>
+        <p className="card__title">Team Builder</p>
+        <p className="card__subtitle">
           Scans our talent network to create the optimal team for your project
         </p>
         <div className="card__bottom">
