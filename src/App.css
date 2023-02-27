@@ -50,5 +50,33 @@ body {
   /* align-items: flex-end; */
 }
 
+.container {}
+
+/* .title__wrapper {
+  display: flex;
+} */
+.container_title1 {
+  font-family: Poppins;
+  font-size: 36px;
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 0rem;
+}
+.container_title2 {
+  font-family: Poppins;
+  font-size: 36px;
+  text-align: center;
+  color: #4D4F62;
+  margin-TOP: 0rem;
+}
+.container_para {
+  font-family: Poppins;
+  font-size: 15px;
+  color: #4D4F62;
+  text-align: center;
+  max-width: 540px;
+}
+
+
 
 
