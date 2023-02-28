@@ -50,7 +50,16 @@ body {
   /* align-items: flex-end; */
 }
 
-.container {}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* .title__wrapper {
   display: flex;
@@ -75,6 +84,12 @@ body {
   color: #4D4F62;
   text-align: center;
   max-width: 540px;
+}
+.text__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
